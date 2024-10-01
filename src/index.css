@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-hero-section {
+  background-color: rgba(17, 14, 50, 1);
+  background-image: radial-gradient(
+      at -10% 90%,
+      rgba(202, 138, 4, 0.4),
+      transparent 30%
+    ),
+    radial-gradient(at -10% 30%, rgba(200, 34, 41, 0.3), transparent 50%),
+    radial-gradient(at 52% 20%, rgba(202, 138, 4, 0.3), transparent 37%),
+    radial-gradient(at 120% 80%, rgba(200, 34, 41, 0.3), transparent 50%);
+  mix-blend-mode: darken;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
