@@ -3,47 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .bg-hero-section {
-    background-color: rgba(17, 14, 50, 1); /* Dark base color */
-    background-image: radial-gradient(
-        at -10% 90%,
-        rgba(202, 138, 4, 0.4),
-        transparent 30%
-      ),
-      radial-gradient(at -10% 30%, rgba(200, 34, 41, 0.3), transparent 50%),
-      radial-gradient(at 52% 20%, rgba(202, 138, 4, 0.3), transparent 37%),
-      radial-gradient(at 110% 90%, rgba(200, 34, 41, 0.3), transparent 30%);
-    mix-blend-mode: darken;
-    background-size: cover;
-    background-position: center;
-  }
-  .bg-what-we-do {
-    background-color: rgba(0, 5, 27, 1);
-    background-image: radial-gradient(
-      at 110% 80%,
-      rgba(104, 78, 0, 0.7),
-      transparent 50%
-    );
-
-    mix-blend-mode: darken;
-  }
-  .bg-what-is-dgk {
-    background-color: currentColor;
-    background-image: radial-gradient(
-        at 52% 20%,
-        rgba(241, 6, 6, 1),
-        transparent 50%
-      ),
-      radial-gradient(at 100% 90%, rgba(13, 238, 184, 1), transparent 30%);
-
-    mix-blend-mode: darken;
-  }
-}
-
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
 }

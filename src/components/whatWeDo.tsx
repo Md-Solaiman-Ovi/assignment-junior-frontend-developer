@@ -4,20 +4,23 @@ import Img1 from "../assets/whatWeDoImg1.png";
 // import Img3 from "../assets/whatWeDoImg3.png";
 const WhatWeDo = () => {
   return (
-    <div className="relative flex h-[500px] items-center bg-[rgba(0,5,27,1)]">
-      <div className="absolute bottom-0 left-0 top-0 text-white">
+    <div
+      id="what-we-do"
+      className="relative flex h-full items-center bg-[rgba(0,5,27,1)] bg-cover bg-no-repeat xl:h-[500px]"
+    >
+      <div className="absolute bottom-0 left-0 top-0 z-10 text-white">
         <img src="/src/assets/whatWeDoGradient1.png" alt="" />
       </div>
-      <div className="absolute bottom-0 right-0 text-white">
+      <div className="absolute bottom-0 right-0 z-10 text-white">
         <img src="/src/assets/whatWeDoGradient2.png" alt="" />
       </div>
-      <div className="absolute flex size-full">
+      <div className="z-30 my-20 flex size-full flex-col xl:absolute xl:flex-row">
         <div className="mx-auto flex flex-col items-center justify-center gap-4 px-4 text-white xl:flex-row xl:gap-20 2xl:ml-60 2xl:px-0">
-          <div className="flex flex-col text-start xl:w-5/12">
-            <h2 className="mb-4 text-5xl font-bold">
+          <div className="flex w-full flex-col items-center text-start lg:items-start xl:w-5/12">
+            <h2 className="mb-4 text-center text-3xl font-bold lg:text-start lg:text-5xl">
               What We Do With Blockchain DLT/ Bank
             </h2>
-            <p className="mb-8 w-4/5 text-lg font-normal leading-7">
+            <p className="mb-8 w-4/5 text-center text-lg font-normal leading-7 lg:text-start">
               Join a first-growing community of developers and innovators
               connected all over the world, building the new era of the
               internet.
@@ -60,7 +63,7 @@ const WhatWeDo = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:w-7/12 xl:grid-cols-3">
+          <div className="z-40 grid grid-cols-1 gap-6 md:grid-cols-2 xl:w-7/12 xl:grid-cols-3">
             <WhatWeDoCard
               img={Img1}
               title={"Trade Finance"}

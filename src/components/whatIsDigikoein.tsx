@@ -1,7 +1,10 @@
 const WhatIsDigikoein = () => {
   return (
     <>
-      <div className="bg-what-dgk-bg relative flex h-screen w-full bg-cover bg-no-repeat">
+      <div
+        id="what-is-digi"
+        className="bg-what-dgk-bg relative flex h-screen w-full bg-cover bg-no-repeat"
+      >
         <div className="absolute right-0 top-0 text-white">
           <img src="/src/assets/gradiantImg.png" alt="" />
         </div>
