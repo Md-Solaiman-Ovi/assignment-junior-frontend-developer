@@ -25,5 +25,8 @@ Follow these steps to set up and run the project on your local machine:
 3. **Install dependencies using pnpm:**:
    ```bash
    pnpm install
-4. **Access the project: Open your web browser and go to http://localhost:3000 (or the port specified in your configuration)**:
+4. **Run the project:**:
+   ```bash
+   pnpm run dev
+5. **Access the project: Open your web browser and go to http://localhost:3000 (or the port specified in your configuration)**:
    ```bash
