@@ -19,3 +19,6 @@ Follow these steps to set up and run the project on your local machine:
 1. **Clone the repository**:
    ```bash
    git@github.com:Md-Solaiman-Ovi/assignment-junior-frontend-developer.git
+2. **Navigate to the project directory**:
+   ```bash
+   cd digi-koein
