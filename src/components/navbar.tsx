@@ -3,8 +3,8 @@ import Menu from "../assets/menuIcon.svg";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-30 flex h-[124px] items-center bg-[rgba(0,5,27,0.1)] text-white">
-      <div className="mx-auto flex w-full justify-between px-4 pb-[26px] pt-[50px] 2xl:mx-60 2xl:px-0">
+    <div className="sticky z-50 flex h-[124px] items-center bg-[rgba(0,5,27,0.1)] text-white">
+      <div className="mx-auto flex w-full justify-between px-4 pb-[26px] pt-[50px] xl:mx-60 xl:px-0">
         <div className="flex items-center gap-7">
           <a href="/#" className="flex cursor-pointer items-center gap-[6px]">
             <img src={Logo} alt="Logo" className="object-cover" />

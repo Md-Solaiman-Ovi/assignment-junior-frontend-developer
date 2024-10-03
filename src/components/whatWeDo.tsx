@@ -1,9 +1,10 @@
-import WhatWeDoCard from "./whatWeDoCard";
+// import WhatWeDoCard from "./whatWeDoCard";
 import Img1 from "../assets/whatWeDoImg1.png";
-// import Img2 from "../assets/whatWeDoImg2.png";
-// import Img3 from "../assets/whatWeDoImg3.png";
+import Img2 from "../assets/whatWeDoImg2.png";
+import Img3 from "../assets/whatWeDoImg3.png";
 import whatDoGradient1 from "../assets/whatWeDoGradient1.png";
 import whatDoGradient2 from "../assets/whatWeDoGradient2.png";
+import WhatWeDoCard from "./whatWeDoCard";
 
 const WhatWeDo = () => {
   return (
@@ -18,7 +19,7 @@ const WhatWeDo = () => {
         <img src={whatDoGradient2} alt="" />
       </div>
       <div className="z-30 my-20 flex size-full flex-col xl:absolute xl:flex-row">
-        <div className="flex flex-col items-center justify-center gap-4 px-4 text-white xl:flex-row xl:gap-20 2xl:ml-60 2xl:px-0">
+        <div className="flex flex-col items-center justify-center gap-4 px-4 text-white xl:ml-60 xl:flex-row xl:gap-20 xl:px-0">
           <div className="flex w-full flex-col items-center text-start lg:items-start xl:w-5/12">
             <h2 className="mb-4 text-center text-3xl font-bold lg:text-start lg:text-5xl">
               What We Do With Blockchain DLT/ Bank
@@ -72,6 +73,20 @@ const WhatWeDo = () => {
               title={"Trade Finance"}
               desc={
                 "We offer green financing to help sellers, buyers, and financial institutions facilitate trade as well as create an atmosphere for non-conventional players"
+              }
+            />
+            <WhatWeDoCard
+              img={Img2}
+              title={"Cross-Border Payments"}
+              desc={
+                "We make the transaction easier between the payer and payee from different countries by ensuring low cost, high speed, unlimited access and sufficient transparency."
+              }
+            />
+            <WhatWeDoCard
+              img={Img3}
+              title={"Digital Identity"}
+              desc={
+                "We can help you build your online presence, and our digital infrastructure will allow financial institutions to validate identities without depending on physical documentation."
               }
             />
           </div>

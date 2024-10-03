@@ -1,12 +1,10 @@
 import offerImg1 from "../assets/offerGradient1.png";
 import offerImg2 from "../assets/offerGradient2.png";
 import OfferCard from "./offerCard";
-// import WhatWeDoCard from "./whatWeDoCard";
 import offerImg3 from "../assets/offerGradient3.png";
 import offericon1 from "../assets/offerIcon1.png";
 import offericon2 from "../assets/offerIcon2.png";
 import offericon3 from "../assets/offerIcon3.png";
-// import WhatWeDoCard from "./whatWeDoCard";
 
 const WhatWeDoOffer = () => {
   return (
@@ -21,16 +19,16 @@ const WhatWeDoOffer = () => {
         <img src={offerImg3} alt="" />
       </div>
       <div className="flex w-full flex-col gap-4 text-white lg:text-start">
-        <div className="my-[100px] flex flex-col gap-5 px-4 2xl:mx-60 2xl:px-0">
+        <div className="my-[100px] flex flex-col gap-5 px-4 xl:mx-60 xl:px-0">
           <h1 className="mb-6 text-center text-3xl font-semibold md:text-[40px]">
             What Do We Offer
           </h1>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="h-full">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+            <div className="w-full">
               <div
-                className={`relative flex h-[425px] flex-col gap-3 rounded-2xl bg-gradient-to-r from-[rgba(67,53,152,1)] to-[rgba(48,90,152,1)] p-8 shadow-lg`}
+                className={`flex h-full flex-col gap-3 rounded-2xl bg-gradient-to-r from-[rgba(67,53,152,1)] to-[rgba(48,90,152,1)] p-8 shadow-lg`}
               >
-                <div className="">
+                <div>
                   <img src={offericon1} alt="Icon" className="size-12" />
                 </div>
                 <div className="flex flex-col gap-3">
@@ -50,7 +48,7 @@ const WhatWeDoOffer = () => {
                 </div>
               </div>
             </div>
-            <div className="grid w-full grid-cols-2 gap-4">
+            <div className="grid w-full grid-cols-1 gap-4 lg:grid-cols-2">
               <OfferCard img={offericon2} title={"Payment System"} desc={""} />
               <OfferCard
                 img={offericon3}
