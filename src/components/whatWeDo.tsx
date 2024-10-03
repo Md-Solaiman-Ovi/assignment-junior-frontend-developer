@@ -11,14 +11,14 @@ const WhatWeDo = () => {
       id="what-we-do"
       className="relative flex h-full items-center bg-[rgba(0,5,27,1)] bg-cover bg-no-repeat xl:h-[500px]"
     >
-      <div className="absolute bottom-0 left-0 top-0 z-10 text-white">
+      <div className="absolute left-0 top-0 z-0 text-white">
         <img src={whatDoGradient1} alt="" />
       </div>
-      <div className="absolute bottom-0 right-0 z-10 text-white">
+      <div className="absolute right-0 top-0 z-0 text-white">
         <img src={whatDoGradient2} alt="" />
       </div>
       <div className="z-30 my-20 flex size-full flex-col xl:absolute xl:flex-row">
-        <div className="mx-auto flex flex-col items-center justify-center gap-4 px-4 text-white xl:flex-row xl:gap-20 2xl:ml-60 2xl:px-0">
+        <div className="flex flex-col items-center justify-center gap-4 px-4 text-white xl:flex-row xl:gap-20 2xl:ml-60 2xl:px-0">
           <div className="flex w-full flex-col items-center text-start lg:items-start xl:w-5/12">
             <h2 className="mb-4 text-center text-3xl font-bold lg:text-start lg:text-5xl">
               What We Do With Blockchain DLT/ Bank

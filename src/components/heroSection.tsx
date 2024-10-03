@@ -12,8 +12,8 @@ const HeroSection = () => {
         financial experts, to transform the financial industry and enhance
         people's lives using Blockchain technology.
       </div>
-      <div className="flex flex-col items-center gap-8 md:gap-24">
-        <button className="mt-8 rounded-lg bg-gradient-to-r from-[rgba(252,214,78,1)] to-[rgba(237,143,7,1)] px-8 py-4 text-lg font-medium">
+      <div className="bottom-4 flex flex-col items-center gap-8 lg:gap-24">
+        <button className="mt-8 rounded-lg bg-gradient-to-r from-[rgba(252,214,78,1)] to-[rgba(237,143,7,1)] p-2 text-base font-medium lg:px-8 lg:py-4 lg:text-lg">
           Learn More
         </button>
         <div className="flex flex-col items-center gap-2 md:gap-[18px]">
