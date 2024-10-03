@@ -10,6 +10,10 @@ import vector9 from "../assets/vector9.png";
 import vector10 from "../assets/vector10.png";
 import Navbar from "./navbar";
 import HeroSection from "./heroSection";
+import heroGradient1 from "../assets/heroGradient1.png";
+import heroGradient2 from "../assets/heroGradient2.png";
+import heroGradient3 from "../assets/heroGradient3.png";
+import heroGradient4 from "../assets/heroGradient4.png";
 
 const Home = () => {
   return (
@@ -17,16 +21,16 @@ const Home = () => {
       <Navbar />
       <div className="z-0">
         <div className="absolute bottom-0 left-0 text-white">
-          <img src="/src/assets/heroGradient1.png" alt="" />
+          <img src={heroGradient1} alt="" />
         </div>
         <div className="absolute left-0 top-0 text-white">
-          <img src="/src/assets/heroGradient2.png" alt="" />
+          <img src={heroGradient2} alt="" />
         </div>
         <div className="absolute right-20 top-0 text-white">
-          <img src="/src/assets/heroGradient3.png" alt="" />
+          <img src={heroGradient3} alt="" />
         </div>
         <div className="absolute bottom-0 right-0 text-white">
-          <img src="/src/assets/heroGradient4.png" alt="" />
+          <img src={heroGradient4} alt="" />
         </div>
         <div className="absolute left-[143px] top-[273px]">
           <img src={vector1} alt="" />

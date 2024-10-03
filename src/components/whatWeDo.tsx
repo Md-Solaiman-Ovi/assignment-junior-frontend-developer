@@ -2,6 +2,9 @@ import WhatWeDoCard from "./whatWeDoCard";
 import Img1 from "../assets/whatWeDoImg1.png";
 // import Img2 from "../assets/whatWeDoImg2.png";
 // import Img3 from "../assets/whatWeDoImg3.png";
+import whatDoGradient1 from "../assets/whatWeDoGradient1.png";
+import whatDoGradient2 from "../assets/whatWeDoGradient2.png";
+
 const WhatWeDo = () => {
   return (
     <div
@@ -9,10 +12,10 @@ const WhatWeDo = () => {
       className="relative flex h-full items-center bg-[rgba(0,5,27,1)] bg-cover bg-no-repeat xl:h-[500px]"
     >
       <div className="absolute bottom-0 left-0 top-0 z-10 text-white">
-        <img src="/src/assets/whatWeDoGradient1.png" alt="" />
+        <img src={whatDoGradient1} alt="" />
       </div>
       <div className="absolute bottom-0 right-0 z-10 text-white">
-        <img src="/src/assets/whatWeDoGradient2.png" alt="" />
+        <img src={whatDoGradient2} alt="" />
       </div>
       <div className="z-30 my-20 flex size-full flex-col xl:absolute xl:flex-row">
         <div className="mx-auto flex flex-col items-center justify-center gap-4 px-4 text-white xl:flex-row xl:gap-20 2xl:ml-60 2xl:px-0">

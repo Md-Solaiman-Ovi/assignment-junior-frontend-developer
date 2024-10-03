@@ -1,15 +1,18 @@
+import whatDigiiGradient1 from "../assets/gradiantImg.png";
+import whatDigiiGradient2 from "../assets/gradiantRed.png";
+
 const WhatIsDigikoein = () => {
   return (
     <>
       <div
         id="what-is-digi"
-        className="bg-what-dgk-bg relative flex h-screen w-full bg-cover bg-no-repeat"
+        className="relative flex h-screen w-full bg-what-dgk-bg bg-cover bg-no-repeat"
       >
         <div className="absolute right-0 top-0 text-white">
-          <img src="/src/assets/gradiantImg.png" alt="" />
+          <img src={whatDigiiGradient1} alt="" />
         </div>
         <div className="absolute bottom-0 right-0 text-white">
-          <img src="/src/assets/gradiantRed.png" alt="" />
+          <img src={whatDigiiGradient2} alt="" />
         </div>
         <div className="right-48 top-36 my-10 flex max-w-3xl flex-col gap-4 px-4 text-justify text-white lg:absolute lg:text-start">
           <h1 className="mb-6 text-center text-3xl font-bold md:text-6xl lg:text-start">
