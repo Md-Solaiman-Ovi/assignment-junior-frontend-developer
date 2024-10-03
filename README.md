@@ -1,19 +1,19 @@
-# Project Title
+# Digi Koein
 
-Brief description of your project goes here. Include what the project does and its main features.
+Digi Koein is a project that utilizes TypeScript, React, and Tailwind CSS to provide a modern and responsive web application. The project aims to [briefly describe what the project does and its main features].
 
 ## Tools and Frameworks Used
 
-- **Programming Language**: [Your Language] (e.g., JavaScript, Python, etc.)
-- **Framework**: [Your Framework] (e.g., React, Django, etc.)
-- **Database**: [Your Database] (e.g., MongoDB, PostgreSQL, etc.)
+- **Programming Language**: TypeScript
+- **Framework**: React
+- **Styling**: Tailwind CSS
 - **Version Control**: Git
 
 ## Additional Libraries or Plugins
 
-- **Library/Plugin Name**: Description (e.g., Axios for making HTTP requests)
-- **Library/Plugin Name**: Description (e.g., Bootstrap for styling)
-- **Library/Plugin Name**: Description (e.g., Redux for state management)
+- **React Router**: For routing and navigation within the application.
+- **Axios**: For making HTTP requests to external APIs.
+- **React Query**: For data fetching, caching, and synchronization.
 
 ## Steps to Run the Project Locally
 
@@ -21,4 +21,4 @@ Follow these steps to set up and run the project on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/your-username/digi-koein.git
